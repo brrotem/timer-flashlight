@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.AppWidgetContainer">
+
+   <!-- <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.Timerflashlight.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />-->
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/newappwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#09C"
+        android:src="@drawable/flashlight_timer_icon"
+        android:textColor="#ffffff"
+
+        android:textStyle="bold|italic">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/widget_margin"
+            android:text="@string/widget_timer"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textSize="30dp" />
+
+    </ImageButton>
+    <!--<TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="00:00"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textSize="30dp" />-->
+
+
+
+</RelativeLayout>
